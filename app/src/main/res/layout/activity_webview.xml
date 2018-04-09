@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+
+
+    <com.canhuah.h5.AppWebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+    </com.canhuah.h5.AppWebView>
+
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView android:layout_width="match_parent"
+                  android:gravity="center"
+                  android:text="----------下面是原生内容----------"
+                  android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:onClick="noparm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="android调用js无参函数"/>
+
+        <Button
+            android:onClick="parm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="android调用js有参函数"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

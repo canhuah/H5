@@ -1,0 +1,40 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <script type="text/javascript">
+    var bean = {
+      "bridgeType": "login",
+      "pram": "0",
+      "message": "跳转到登录"
+    }
+
+    //这里直接拼接成 'bridge='+jsonStr,
+    function js2json() {
+      var jsonStr = JSON.stringify(bean)
+      return 'bridge=' + jsonStr
+    }
+
+  </script>
+    <style>
+    p, button {
+      font-size: 35px
+    }
+  </style>
+
+</head>
+<body>
+
+<p>
+    通过url跳转拦截 <br/><br/>
+    优点: <br/>
+    前端只需要实行一套就好了,安卓iOS可以通用 <br/><br/>
+    缺点: <br/>
+    只能h5调用安卓,安卓暂时不能通过这个方式调用h5的方法 <br/><br/>
+
+    <button onclick="location.href='http://www.baidu.com'" type="button"> 正常跳转到百度</button>
+    <br/><br/><br/>
+    <button onclick="location.href=js2json()" type="button"> 安卓拦截url,解析然后根据bridgeType做出相应处理</button>
+    <br/>
+</p>
+</body>
+</html>
