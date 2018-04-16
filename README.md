@@ -1,6 +1,6 @@
 ## WebView的一些基础设置
 
-[点击这里-->基础设置](http://canhuah.com/2016/11/23/2016-11-23-about-webview/)
+[点击这里-->基础设置](https://canhuah.com/about-webview.html)
 
 
 
