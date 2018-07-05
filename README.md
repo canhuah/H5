@@ -1,6 +1,6 @@
 ## WebView的一些基础设置
 
-[点击这里-->基础设置](https://canhuah.com/about-webview.html)
+[点击这里-->基础设置](http://www.canhuah.com/about-webview.html)
 
 
 
@@ -191,7 +191,7 @@ mWebView.setWebViewClient(new LrWebViewClient());   mWebView.loadUrl("file:///an
 
 [demo--> github](https://github.com/canhuah/H5)
 
-
+[canhuah的博客](http://www.canhuah.com)
 
 参考 https://blog.csdn.net/qq_24530405/article/details/52067474
 
